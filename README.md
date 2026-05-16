@@ -15,29 +15,28 @@ Many applicants struggle to secure traditional credit due to thin credit histori
 
 ## 🛠️ Repository Blueprint
 
+## 🛠️ Repository Blueprint
+
+```text
 Credit_Risk_Project/
-│
 ├── data/
-│ ├── raw/ # Source CSV binaries from Kaggle (git-ignored)
-│ └── processed/ # Pipeline data matrices and serialized models
-│
+│   ├── raw/                  # Source CSV binaries from Kaggle (git-ignored)
+│   └── processed/            # Pipeline data matrices and serialized models
 ├── notebooks/
-│ └── eda_visualizations.py # Automated visual diagnostic reporting script
-│
+│   └── eda_visualizations.py # Automated visual diagnostic reporting script
 ├── src/
-│ ├── **init**.py # Package initialization and public API exposures
-│ ├── initialize_project.py # Automatic directory tree configuration setup
-│ ├── validate_data.py # Upstream structural data validation gate
-│ ├── data_merger.py # Relational history processing logic
-│ ├── pipeline.py # Core LightGBM training engine module
-│ └── scorecard.py # Financial log-odds conversion logic
-│
+│   ├── __init__.py           # Package initialization and public API exposures
+│   ├── initialize_project.py # Automatic directory tree configuration setup
+│   ├── validate_data.py      # Upstream structural data validation gate
+│   ├── data_merger.py        # Relational history processing logic
+│   ├── pipeline.py           # Core LightGBM training engine module
+│   └── scorecard.py          # Financial log-odds conversion logic
 ├── reports/
-│ └── figures/ # Exported high-definition analysis plots
-│
-├── app.py # Streamlit deployment core application
-├── requirements.txt # Production package dependency manager
-└── .gitignore # Outlines protected files excluded from tracking
+│   └── figures/              # Exported high-definition analysis plots
+├── app.py                    # Streamlit deployment core application
+├── requirements.txt          # Production package dependency manager
+└── .gitignore                # Outlines protected files excluded from tracking
+```
 
 ---
 
