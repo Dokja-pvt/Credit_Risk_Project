@@ -15,8 +15,6 @@ Many applicants struggle to secure traditional credit due to thin credit histori
 
 ## 🛠️ Repository Blueprint
 
-## 🛠️ Repository Blueprint
-
 ```text
 Credit_Risk_Project/
 ├── data/
